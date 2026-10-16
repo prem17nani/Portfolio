@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Selenix — Modern Business Enablement Firm. Powering your growth through dual pillars: Financial Operations & Statutory Compliance and Digital Presence & Strategy." />
+  <meta name="keywords" content="Selenix, financial operations, statutory compliance, corporate accounting, payroll processing, tax advisory, custom web design, business enablement" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Selenix Group" />
+
+  <!-- Zero-Cookie & Privacy Policy Declaration -->
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+  <meta name="privacy-compliance" content="100% Cookieless. No tracking cookies or advertising pixels stored." />
+
+  <title>Selenix | Financial Operations &amp; Digital Strategy Firm</title>
+
+  <!-- Browser Tab Favicon (Using Selenix 3D Logo Icon) -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+  <!-- Modern Typography (Plus Jakarta Sans & Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Modular CSS Design System -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- Screen reader live announcer -->
+  <div id="a11y-announcer" class="sr-only" aria-live="polite" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;"></div>
+
+  <!-- ============================================================
+       BRANDED PAGE LOADER / SPLASH SCREEN ("LOADING TAB")
+  ============================================================ -->
+  <div id="app-loader" aria-label="Loading Selenix Portal">
+    <div class="loader-emblem-wrap">
+      <div class="loader-orbit"></div>
+      <div class="loader-glow-ring"></div>
+      <img src="assets/selenix-icon.jpg" alt="Selenix 3D Emblem" class="loader-logo-img" />
+    </div>
+    <div class="loader-brand">SELENIX</div>
+    <div class="loader-sub">FINANCIAL OPERATIONS &bull; DIGITAL STRATEGY</div>
+    <div class="loader-progress-bar">
+      <div id="loader-progress-fill" class="loader-progress-fill"></div>
+    </div>
+    <div id="loader-status-text" class="loader-status-text">INITIALIZING DUAL ENGINES [0%]</div>
+  </div>
+
+  <!-- ============================================================
+       TOP COMPLIANCE & STATUS BAR
+  ============================================================ -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <div class="top-bar-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>100% Statutory Compliance Record</span>
+        </div>
+        <div class="top-bar-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          <span>Bank-Grade 256-Bit Encryption</span>
+        </div>
+        <div class="top-bar-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24M14.83 14.83l4.24 4.24M14.83 9.17l4.24-4.24M4.93 19.07l4.24-4.24"/></svg>
+          <span>100% Cookieless Web Experience</span>
+        </div>
+      </div>
+      <div class="top-bar-right">
+        <div class="top-bar-status">
+          <span class="status-dot"></span>
+          <span>Dual Systems Active: Financial &amp; Digital Desks Open</span>
+        </div>
+        <a href="tel:+18007353649" class="top-bar-phone">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>+1 (800) 735-3649</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       1. NAVBAR
+  ============================================================ -->
+  <header class="navbar" id="site-header">
+    <div class="container navbar-inner">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Selenix Home">
+        <div class="brand-icon-emblem">
+          <img src="assets/selenix-icon.jpg" alt="Selenix Emblem" />
+        </div>
+        <img src="assets/selenix-wordmark.png" alt="SELENIX" class="brand-wordmark-img" />
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#packages" class="nav-link">Packages</a>
+        <a href="#process" class="nav-link">Process &amp; Trust</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#insights" class="nav-link">Insights</a>
+        <a href="#booking" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Right Nav Actions -->
+      <div class="nav-actions">
+        <!-- High-Visibility Primary CTA -->
+        <a href="#booking" class="btn btn-primary" id="nav-cta-btn">
+          <span>Book Free Consultation</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button type="button" class="mobile-toggle" aria-label="Open Mobile Menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Drawer">
+    <div>
+      <div class="drawer-header">
+        <div class="brand-logo">
+          <div class="brand-icon-emblem" style="width:36px;height:36px;">
+            <img src="assets/selenix-icon.jpg" alt="Selenix" />
+          </div>
+          <img src="assets/selenix-wordmark.png" alt="SELENIX" class="brand-wordmark-img" style="height:22px;" />
+        </div>
+        <button type="button" class="drawer-close-btn" aria-label="Close Mobile Menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <nav class="drawer-nav-list">
+        <a href="#services" class="drawer-nav-link">
+          <span>Services</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+        <a href="#packages" class="drawer-nav-link">
+          <span>Packages</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+        <a href="#process" class="drawer-nav-link">
+          <span>Process &amp; Trust</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+        <a href="#about" class="drawer-nav-link">
+          <span>About</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+        <a href="#insights" class="drawer-nav-link">
+          <span>Insights</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+        <a href="#booking" class="drawer-nav-link">
+          <span>Contact</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      </nav>
+    </div>
+    <div class="drawer-footer">
+      <a href="#booking" class="btn btn-primary btn-block">Book Free Consultation</a>
+      <p style="font-size:0.75rem;color:var(--text-muted);text-align:center;margin-top:1rem;">100% Cookieless &bull; Bank-Grade Privacy</p>
+    </div>
+  </aside>
+
+  <!-- ============================================================
+       2. HERO SECTION
+  ============================================================ -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Left Content -->
+        <div class="hero-content">
+          <div class="hero-pill">
+            <span class="hero-pill-badge">DUAL-ENGINE ENABLEMENT</span>
+            <span>Financial Operations &amp; Digital Growth Synchronized</span>
+          </div>
+
+          <h1 class="hero-title">
+            Build Your Brand.
+            <span class="highlight-line">Solidify Your Bottom Line.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            From end-to-end accounting, payroll, and statutory compliance to high-converting web design and strategic digital consulting—we power every stage of your business growth.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#booking" class="btn btn-primary" id="hero-primary-cta">
+              <span>Schedule Advisory Call</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="#services" class="btn btn-secondary" id="hero-secondary-cta">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              <span>Explore Services</span>
+            </a>
+          </div>
+
+          <!-- Hero Trust Badges -->
+          <div class="hero-trust-badges">
+            <div class="trust-badge-item">
+              <div class="trust-badge-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <div class="trust-badge-text">
+                <strong>100% Compliance Guaranteed</strong>
+                <span>Zero late penalties, multi-tier statutory verification</span>
+              </div>
+            </div>
+
+            <div class="trust-badge-item">
+              <div class="trust-badge-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              </div>
+              <div class="trust-badge-text">
+                <strong>Audit-Ready Books</strong>
+                <span>GAAP/IFRS standards, 5-day monthly close</span>
+              </div>
+            </div>
+
+            <div class="trust-badge-item">
+              <div class="trust-badge-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </div>
+              <div class="trust-badge-text">
+                <strong>High-Performance Design</strong>
+                <span>Conversion-engineered UI with sub-second speeds</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Visual Feature: Dual-Engine Interactive Console -->
+        <div class="hero-visual-card">
+          <div class="hero-screen-header">
+            <div class="hero-window-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="hero-screen-tag">SELENIX DUAL-ENGINE CONSOLE v4.2</div>
+          </div>
+
+          <div class="hero-dashboard-img-wrap">
+            <img src="assets/dashboard-dual-engine.jpg" alt="Selenix Dual-Engine Operations &amp; Growth Dashboard" />
+          </div>
+
+          <div class="hero-floating-metric">
+            <div class="hero-metric-col">
+              <span class="hero-metric-value">$180M+</span>
+              <span class="hero-metric-label">Capital Reconciled</span>
+            </div>
+            <div style="width:1px;height:30px;background:rgba(255,255,255,0.15);"></div>
+            <div class="hero-metric-col">
+              <span class="hero-metric-value">99.98%</span>
+              <span class="hero-metric-label">Filing Accuracy</span>
+            </div>
+            <div style="width:1px;height:30px;background:rgba(255,255,255,0.15);"></div>
+            <div class="hero-metric-col">
+              <span class="hero-metric-value">3.8x</span>
+              <span class="hero-metric-label">Avg. Conversion Uplift</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       3. DUAL-ENGINE SERVICE MATRIX
+  ============================================================ -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span class="dot"></span>
+          <span>Core Capabilities</span>
+        </div>
+        <h2 class="section-title">The Dual-Engine Service Matrix</h2>
+        <p class="section-desc">
+          Two foundational operational pillars engineered to operate in lockstep. One protects and governs your back-office financial ledger; the other commands your digital market presence.
+        </p>
+      </div>
+
+      <!-- Accessible Interactive Tabs -->
+      <div class="tabs-container">
+        <div class="tab-nav" role="tablist" aria-label="Service Engine Pillars">
+          <button type="button" class="tab-btn" role="tab" id="tab-fin" aria-selected="true" aria-controls="panel-fin">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><line x1="6" y1="8" x2="6" y2="8.01"/><line x1="10" y1="8" x2="10" y2="8.01"/><line x1="14" y1="8" x2="14" y2="8.01"/></svg>
+            <span>Pillar A: Financial &amp; Legal Operations</span>
+            <span class="tab-count">4 Services</span>
+          </button>
+          <button type="button" class="tab-btn" role="tab" id="tab-dig" aria-selected="false" aria-controls="panel-dig" tabindex="-1">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span>Pillar B: Digital &amp; Strategic Growth</span>
+            <span class="tab-count">3 Services</span>
+          </button>
+          <button type="button" class="tab-btn" role="tab" id="tab-syn" aria-selected="false" aria-controls="panel-syn" tabindex="-1">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            <span>Synchronized Synergy View</span>
+          </button>
+        </div>
+
+        <!-- Panel 1: Pillar A (Financial Operations & Legal Compliance) -->
+        <div class="tab-panel active" id="panel-fin" role="tabpanel" aria-labelledby="tab-fin">
+          <div class="services-grid">
+            <!-- Service 1: Payroll Processing -->
+            <div class="card service-card">
+              <div class="service-card-top">
+                <div class="service-icon-box">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+                </div>
+                <h3 class="service-title">Payroll Processing</h3>
+                <p class="service-desc">
+                  Flawless, automated multi-tier payroll execution with full statutory tax deductions, compliance reporting, and employee self-service management.
+                </p>
+
+                <div class="deliverables-title">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Deliverables</span>
+                </div>
+                <ul class="deliverables-list">
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Multi-state &amp; multi-tier salary calculations</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Statutory deductions (PF, ESI, TDS, State/Federal Tax)</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Automated direct deposit disbursement &amp; pay-slips</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Year-end tax summaries &amp; regulatory filing certificates</span>
+                  </li>
+                </ul>
+
+                <div class="service-benefit-box">
+                  <span class="benefit-label">Business Advantage</span>
+                  <p class="benefit-text">Zero payroll discrepancies, 100% timely disbursals, and complete elimination of employee grievance friction.</p>
+                </div>
+              </div>
+
+              <a href="#booking" class="btn btn-secondary btn-block" data-select-service="Payroll Processing">
+                <span>Inquire About Payroll</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            </div>
+
+            <!-- Service 2: Tax Advisory & Filings -->
+            <div class="card service-card">
+              <div class="service-card-top">
+                <div class="service-icon-box">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                </div>
+                <h3 class="service-title">Tax Advisory &amp; Filings</h3>
+                <p class="service-desc">
+                  Proactive corporate tax planning, cross-border treaty optimization, and accurate statutory tax filings that protect your treasury from audit liabilities.
+                </p>
+
+                <div class="deliverables-title">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Deliverables</span>
+                </div>
+                <ul class="deliverables-list">
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Corporate Income Tax (CIT) return preparation</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Monthly &amp; quarterly GST / VAT / Sales Tax reconciliations</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Quarterly advance tax computation &amp; cash provisioning</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Institutional audit representation &amp; defense dossiers</span>
+                  </li>
+                </ul>
+
+                <div class="service-benefit-box">
+                  <span class="benefit-label">Business Advantage</span>
+                  <p class="benefit-text">Maximized statutory write-offs and bulletproof audit readiness that prevents double-taxation and legal penalties.</p>
+                </div>
+              </div>
+
+              <a href="#booking" class="btn btn-secondary btn-block" data-select-service="Tax Advisory & Filings">
+                <span>Inquire About Tax Advisory</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            </div>
+
+            <!-- Service 3: Bookkeeping & Accounting -->
+            <div class="card service-card">
+              <div class="service-card-top">
+                <div class="service-icon-box">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                <h3 class="service-title">Bookkeeping &amp; Accounting</h3>
+                <p class="service-desc">
+                  Institutional ledger management, dual-entry accounting, and real-time financial reporting structured to GAAP and IFRS international standards.
+                </p>
+
+                <div class="deliverables-title">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Deliverables</span>
+                </div>
+                <ul class="deliverables-list">
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Rapid 5-day monthly close with full ledger reconciliation</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>GAAP/IFRS financial statements (P&amp;L, Balance Sheet, Cash Flow)</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Cloud accounting setup (QuickBooks, Xero, Zoho Books, NetSuite)</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Burn-rate analytics, runway modeling &amp; unit economics</span>
+                  </li>
+                </ul>
+
+                <div class="service-benefit-box">
+                  <span class="benefit-label">Business Advantage</span>
+                  <p class="benefit-text">Always investor-ready books, total cash visibility, and zero last-minute scramble during financial audits.</p>
+                </div>
+              </div>
+
+              <a href="#booking" class="btn btn-secondary btn-block" data-select-service="Accounting & Bookkeeping">
+                <span>Inquire About Bookkeeping</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            </div>
+
+            <!-- Service 4: Statutory Compliance -->
+            <div class="card service-card">
+              <div class="service-card-top">
+                <div class="service-icon-box">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <h3 class="service-title">Statutory Compliance</h3>
+                <p class="service-desc">
+                  Comprehensive corporate secretarial governance, annual statutory returns, and labor conformity to ensure your business remains in 100% legal good standing.
+                </p>
+
+                <div class="deliverables-title">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Deliverables</span>
+                </div>
+                <ul class="deliverables-list">
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Annual Registrar of Companies (ROC / SoS) filing filings</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Maintenance of statutory registers &amp; board resolution records</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Labor law &amp; establishment compliance audits</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Regulatory license renewals &amp; statutory calendar tracking</span>
+                  </li>
+                </ul>
+
+                <div class="service-benefit-box">
+                  <span class="benefit-label">Business Advantage</span>
+                  <p class="benefit-text">Guaranteed zero late-filing fines, zero corporate director disqualifications, and flawless legal standing.</p>
+                </div>
+              </div>
+
+              <a href="#booking" class="btn btn-secondary btn-block" data-select-service="Statutory Compliance">
+                <span>Inquire About Statutory Compliance</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 2: Pillar B (Digital Presence & Strategic Growth) -->
+        <div class="tab-panel" id="panel-dig" role="tabpanel" aria-labelledby="tab-dig">
+          <div class="services-grid">
+            <!-- Service 1: Custom Web Design & Engineering -->
+            <div class="card service-card">
+              <div class="service-card-top">
+                <div class="service-icon-box">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                </div>
+                <h3 class="service-title">Custom Web Design</h3>
+                <p class="service-desc">
+                  Conversion-engineered, bespoke corporate web platforms built with precision typography, sub-second response times, and high-impact lead funnels.
+                </p>
+
+                <div class="deliverables-title">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Deliverables</span>
+                </div>
+                <ul class="deliverables-list">
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Bespoke UX/UI interactive architecture &amp; wireframing</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Mobile-first responsive engineering with sub-second speeds</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Cookieless, privacy-first analytics &amp; form lead capture</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>SEO-structured semantic schema &amp; global edge deployment</span>
+                  </li>
+                </ul>
+
+                <div class="service-benefit-box">
+                  <span class="benefit-label">Business Advantage</span>
+                  <p class="benefit-text">Converts anonymous visitors into qualified corporate inquiries while commanding institutional authority.</p>
+                </div>
+              </div>
+
+              <a href="#booking" class="btn btn-secondary btn-block" data-select-service="Custom Web Design & Strategy">
+                <span>Inquire About Web Design</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            </div>
+
+            <!-- Service 2: Brand Identity & Positioning -->
+            <div class="card service-card">
+              <div class="service-card-top">
+                <div class="service-icon-box">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </div>
+                <h3 class="service-title">Brand Identity</h3>
+                <p class="service-desc">
+                  Institutional brand identity systems that establish immediate market trust, command premium fee structures, and differentiate your enterprise.
+                </p>
+
+                <div class="deliverables-title">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Deliverables</span>
+                </div>
+                <ul class="deliverables-list">
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Executive logo suites (primary wordmark, submark, 3D icon)</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Corporate color science &amp; high-contrast typography tokens</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Executive presentation decks &amp; business collateral kits</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Comprehensive digital brand guidelines manual</span>
+                  </li>
+                </ul>
+
+                <div class="service-benefit-box">
+                  <span class="benefit-label">Business Advantage</span>
+                  <p class="benefit-text">Allows early and scaling firms to look, feel, and price like an established market leader on day one.</p>
+                </div>
+              </div>
+
+              <a href="#booking" class="btn btn-secondary btn-block" data-select-service="Brand Identity & Consulting">
+                <span>Inquire About Brand Strategy</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            </div>
+
+            <!-- Service 3: Business Process Consulting -->
+            <div class="card service-card">
+              <div class="service-card-top">
+                <div class="service-icon-box">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                </div>
+                <h3 class="service-title">Process Consulting</h3>
+                <p class="service-desc">
+                  Strategic systems automation bridging financial software with sales CRM and project workflows to eliminate administrative waste and scale capacity.
+                </p>
+
+                <div class="deliverables-title">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Deliverables</span>
+                </div>
+                <ul class="deliverables-list">
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>ERP &amp; financial tool stack integration (Stripe, QuickBooks, HubSpot)</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Automated invoicing-to-ledger receivables pipeline</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Operational bottleneck diagnosis &amp; standard operating procedures (SOPs)</span>
+                  </li>
+                  <li class="deliverable-item">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Executive KPI dashboard engineering &amp; pipeline tracking</span>
+                  </li>
+                </ul>
+
+                <div class="service-benefit-box">
+                  <span class="benefit-label">Business Advantage</span>
+                  <p class="benefit-text">Reclaims 40+ leadership hours every month from repetitive manual operations, accelerating high-margin growth.</p>
+                </div>
+              </div>
+
+              <a href="#booking" class="btn btn-secondary btn-block" data-select-service="Business Process Consulting">
+                <span>Inquire About Consulting</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 3: Synchronized Synergy View -->
+        <div class="tab-panel" id="panel-syn" role="tabpanel" aria-labelledby="tab-syn">
+          <div class="synergy-view-box">
+            <div class="synergy-grid">
+              <div class="synergy-col">
+                <span class="badge badge-emerald" style="margin-bottom:1rem;">BACK-OFFICE GOVERNANCE</span>
+                <h4 style="font-size:1.35rem;margin-bottom:0.75rem;">Engine A: Financial Stability</h4>
+                <p style="color:var(--text-muted);font-size:0.92rem;line-height:1.65;margin-bottom:1rem;">
+                  Accurate bookkeeping and spotless compliance give you the confidence to deploy capital, secure credit lines, and withstand any regulatory inspection.
+                </p>
+                <ul style="font-size:0.86rem;color:var(--text-body);display:flex;flex-direction:column;gap:0.5rem;">
+                  <li style="display:flex;align-items:center;gap:0.5rem;">
+                    <svg width="15" height="15" color="var(--selenix-green)" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Clean real-time EBITDA &amp; cash burn metrics</span>
+                  </li>
+                  <li style="display:flex;align-items:center;gap:0.5rem;">
+                    <svg width="15" height="15" color="var(--selenix-green)" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Guaranteed on-time statutory submissions</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="synergy-divider-icon" title="Synchronized Core">
+                <span>&times;</span>
+              </div>
+
+              <div class="synergy-col">
+                <span class="badge badge-emerald" style="margin-bottom:1rem;">FRONT-OFFICE REVENUE</span>
+                <h4 style="font-size:1.35rem;margin-bottom:0.75rem;">Engine B: Market Dominance</h4>
+                <p style="color:var(--text-muted);font-size:0.92rem;line-height:1.65;margin-bottom:1rem;">
+                  High-converting digital architecture and sharp brand positioning generate the revenue and customer velocity needed to fuel your operations.
+                </p>
+                <ul style="font-size:0.86rem;color:var(--text-body);display:flex;flex-direction:column;gap:0.5rem;">
+                  <li style="display:flex;align-items:center;gap:0.5rem;">
+                    <svg width="15" height="15" color="var(--selenix-green)" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Sub-second page speeds with high lead conversions</span>
+                  </li>
+                  <li style="display:flex;align-items:center;gap:0.5rem;">
+                    <svg width="15" height="15" color="var(--selenix-green)" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Cohesive executive branding that builds buyer trust</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div style="text-align:center;margin-top:2.5rem;padding-top:2rem;border-top:1px solid var(--border-light);">
+              <h5 style="font-size:1.15rem;margin-bottom:0.5rem;">Why Fragment When You Can Synchronize?</h5>
+              <p style="color:var(--text-muted);max-width:650px;margin:0 auto 1.5rem auto;font-size:0.92rem;">
+                Traditional businesses waste months coordinating between disjointed accounting firms and digital agencies. Selenix brings both under one accountable, institutional roof.
+              </p>
+              <a href="#packages" class="btn btn-primary">
+                <span>View Bundled Enablement Packages</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       4. BUNDLED SOLUTION PACKAGES
+  ============================================================ */
+  -->
+  <section class="packages-section" id="packages">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span class="dot"></span>
+          <span>Turnkey Engagements</span>
+        </div>
+        <h2 class="section-title">Bundled Solution Packages</h2>
+        <p class="section-desc">
+          Pre-configured corporate solutions designed for companies at critical growth inflection points. Clear deliverables, fixed schedules, and guaranteed outcomes.
+        </p>
+      </div>
+
+      <div class="packages-grid">
+        <!-- Package 1: Day 1 Launchpad -->
+        <div class="card package-card">
+          <div>
+            <div class="package-header">
+              <span class="package-target">For New Ventures &amp; Startups</span>
+              <h3 class="package-name">Day 1 Launchpad</h3>
+              <p class="package-summary">
+                Business Setup + Statutory Registrations + 5-Page Website. Everything needed to go from entity inception to commercial market readiness.
+              </p>
+            </div>
+
+            <ul class="package-features-list">
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Entity incorporation guidance &amp; legal structuring</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Statutory tax &amp; labor registrations (GST, PAN, EIN, State Tax)</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Corporate banking onboarding &amp; merchant gateway facilitation</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>5-Page bespoke conversion-optimized responsive website</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Core brand identity kit (logos, color system, typography)</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Domain DNS setup, high-speed hosting &amp; SSL certificates</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="package-meta">
+              <span class="package-timeline-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>Turnaround: 14 Business Days</span>
+              </span>
+              <span class="badge badge-slate">Fixed Scope</span>
+            </div>
+
+            <a href="#booking" class="btn btn-secondary btn-block" data-select-service="Day 1 Launchpad (Bundle)">
+              <span>Select Launchpad Package</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Package 2: Scale & Comply Retainer (FEATURED) -->
+        <div class="card package-card featured">
+          <div class="package-ribbon">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>MOST POPULAR</span>
+          </div>
+
+          <div>
+            <div class="package-header">
+              <span class="package-target">For Operating &amp; Scaling Teams</span>
+              <h3 class="package-name">Scale &amp; Comply Retainer</h3>
+              <p class="package-summary">
+                Monthly Payroll + Tax Compliance + Routine Web Maintenance. Total peace of mind for your back-office and your digital assets.
+              </p>
+            </div>
+
+            <ul class="package-features-list">
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Monthly payroll processing for up to 50 employees</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>All monthly &amp; quarterly statutory tax filings (GST, TDS, Withholding)</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Monthly GAAP ledger reconciliation &amp; executive financial close</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>24/7 web uptime monitoring, SSL renewals &amp; core security patches</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>10 monthly hours of dedicated UI conversion updates &amp; optimization</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Dedicated partner advisory channel (Direct Slack / Teams desk)</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="package-meta">
+              <span class="package-timeline-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>Cycle: Monthly Retainer (Cancel Anytime)</span>
+              </span>
+              <span class="badge badge-emerald">Priority SLA</span>
+            </div>
+
+            <a href="#booking" class="btn btn-primary btn-block" data-select-service="Scale & Comply Retainer (Bundle)">
+              <span>Select Scale &amp; Comply</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Package 3: Enterprise Custom -->
+        <div class="card package-card">
+          <div>
+            <div class="package-header">
+              <span class="package-target">For Multi-Entity &amp; High-Growth</span>
+              <h3 class="package-name">Enterprise Custom</h3>
+              <p class="package-summary">
+                Full outsourced back-office &amp; bespoke web solutions. Tailored fractional leadership and dedicated institutional execution.
+              </p>
+            </div>
+
+            <ul class="package-features-list">
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Fractional CFO &amp; Chief Digital Officer governance</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Multi-entity, cross-border statutory compliance coordination</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Unlimited payroll headcount &amp; customized compensation structures</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Custom web application engineering &amp; client portal builds</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>ERP &amp; legacy CRM deep bidirectional data sync</span>
+              </li>
+              <li class="package-feature-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Custom contractual SLAs &amp; institutional compliance warranty</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="package-meta">
+              <span class="package-timeline-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>Scope: Bespoke Dedicated Unit</span>
+              </span>
+              <span class="badge badge-gold">Enterprise SLA</span>
+            </div>
+
+            <a href="#booking" class="btn btn-secondary btn-block" data-select-service="Enterprise Custom Enablement">
+              <span>Request Enterprise Consultation</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       5. TRUST & PROCESS SECTION
+  ============================================================ -->
+  <section class="process-section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span class="dot"></span>
+          <span>Methodology &amp; Protection</span>
+        </div>
+        <h2 class="section-title">Institutional Trust. Rigorous Execution.</h2>
+        <p class="section-desc">
+          How we onboard, audit, and continuously manage your operational back-office and digital growth without disrupting daily operations.
+        </p>
+      </div>
+
+      <!-- Step-by-Step Workflow -->
+      <div class="workflow-steps">
+        <div class="step-card">
+          <div class="step-number-tag">01</div>
+          <h3 class="step-title">Discovery &amp; Audit</h3>
+          <p class="step-desc">
+            We conduct an exhaustive forensic audit of your historical bookkeeping, statutory tax filings, payroll pipelines, and digital presence to identify exposures and performance gaps.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number-tag">02</div>
+          <h3 class="step-title">System Onboarding</h3>
+          <p class="step-desc">
+            We deploy secure, bank-grade accounting chart of accounts, calibrate automated payroll schedules, and finalize conversion-tested digital design wireframes.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number-tag">03</div>
+          <h3 class="step-title">Continuous Execution &amp; Support</h3>
+          <p class="step-desc">
+            Your dedicated advisory team executes a strict 5-day monthly financial close, files all statutory returns on time, and delivers continuous UX improvements.
+          </p>
+        </div>
+      </div>
+
+      <!-- Security Assurance Banner -->
+      <div class="security-banner">
+        <div class="security-header">
+          <h3>Institutional Security &amp; Compliance Safeguards</h3>
+          <p>We treat your company data and financial ledgers with the highest tier of confidentiality and legal protection.</p>
+        </div>
+
+        <div class="security-grid">
+          <div class="security-item">
+            <div class="security-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </div>
+            <h4>Bank-Grade Encryption</h4>
+            <p>AES-256 bit encryption at rest and TLS 1.3 in transit. Financial ledgers and employee payroll documents remain encrypted behind strict zero-trust access controls.</p>
+          </div>
+
+          <div class="security-item">
+            <div class="security-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="m9 15 2 2 4-4"/></svg>
+            </div>
+            <h4>NDA-Backed Data Protection</h4>
+            <p>Every client engagement is covered by our institutional, mutual non-disclosure agreement with personal confidentiality covenants signed by every team advisor.</p>
+          </div>
+
+          <div class="security-item">
+            <div class="security-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            </div>
+            <h4>Zero-Penalty Track Record</h4>
+            <p>Our dual-review verification policy ensures that every statutory tax and regulatory filing is audited twice before submission, guaranteeing 0% penalty liability.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Corporate Spotlight Graphic -->
+      <div class="spotlight-wrap" id="about">
+        <img src="assets/boardroom.jpg" alt="Selenix Executive Boardroom" class="spotlight-img" />
+        <div class="spotlight-overlay">
+          <div class="spotlight-content">
+            <span class="badge badge-emerald" style="margin-bottom:0.75rem;">SELENIX LEADERSHIP PHILOSOPHY</span>
+            <h4>Built for Founders Who Demand Rigor and Velocity</h4>
+            <p>
+              We established Selenix because modern businesses should never have to choose between institutional compliance discipline and agile market growth. Our senior partners work directly with your executive team to ensure your back-office protects your enterprise while your front-end captures the market.
+            </p>
+            <a href="#booking" class="btn btn-primary btn-sm">Schedule Advisory Session</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       6. CONSULTATION BOOKING & CONTACT MODULE
+  ============================================================ -->
+  <section class="booking-section" id="booking">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span class="dot"></span>
+          <span>Strategic Engagement</span>
+        </div>
+        <h2 class="section-title">Schedule Your Free Advisory Consultation</h2>
+        <p class="section-desc">
+          Speak directly with our senior partners to audit your compliance posture, review your payroll pipeline, or architect your digital growth strategy.
+        </p>
+      </div>
+
+      <div class="booking-grid">
+        <!-- Left: Direct Business Contact & Calendar Slot Picker -->
+        <div class="booking-info-box">
+          <h3 class="contact-card-title">Executive Advisory Desk</h3>
+          <p class="contact-card-desc">
+            Select a preferred meeting window below and submit your inquiry. Our senior directors review every submission prior to the consultation to deliver immediate actionable insights.
+          </p>
+
+          <!-- Interactive Calendar Slot Picker -->
+          <div class="slot-picker-wrap">
+            <div class="slot-picker-header">
+              <span>Select Consultation Window</span>
+              <span class="badge badge-emerald">30-Min Session</span>
+            </div>
+
+            <!-- Dynamic Business Days Selector -->
+            <div class="day-selector" id="day-selector" role="group" aria-label="Select Date">
+              <!-- Rendered via JS -->
+            </div>
+
+            <!-- Available Time Slots -->
+            <div class="time-slots-grid" id="time-slots-grid" role="group" aria-label="Select Time Slot">
+              <button type="button" class="slot-btn active" data-time="10:00 AM EST">10:00 AM EST</button>
+              <button type="button" class="slot-btn" data-time="11:30 AM EST">11:30 AM EST</button>
+              <button type="button" class="slot-btn" data-time="02:00 PM EST">02:00 PM EST</button>
+              <button type="button" class="slot-btn" data-time="03:30 PM EST">03:30 PM EST</button>
+              <button type="button" class="slot-btn" data-time="05:00 PM EST">05:00 PM EST</button>
+              <button type="button" class="slot-btn" data-time="06:30 PM EST">06:30 PM EST</button>
+            </div>
+
+            <div style="font-size:0.75rem;color:var(--text-muted);margin-top:0.75rem;display:flex;align-items:center;gap:0.4rem;">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Selected Window: <strong id="selected-schedule-summary" style="color:var(--text-heading);">Loading...</strong></span>
+            </div>
+          </div>
+
+          <!-- Direct Channels -->
+          <div class="contact-channels">
+            <div class="contact-channel-item">
+              <div class="contact-channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-channel-meta">
+                <strong>Advisory Direct Line</strong>
+                <a href="tel:+18007353649">+1 (800) 735-3649</a>
+              </div>
+            </div>
+
+            <div class="contact-channel-item">
+              <div class="contact-channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-channel-meta">
+                <strong>Confidential Inquiries</strong>
+                <a href="mailto:advisory@selenixgroup.com">advisory@selenixgroup.com</a>
+              </div>
+            </div>
+
+            <div class="contact-channel-item">
+              <div class="contact-channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-channel-meta">
+                <strong>Corporate Headquarters</strong>
+                <span>Selenix Tower, 100 Financial Center Blvd, Suite 2400</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:1rem;border-radius:var(--radius-sm);background:rgba(46,255,59,0.06);border:1px solid var(--selenix-green-border);font-size:0.8rem;color:var(--text-body);">
+            <strong style="color:var(--selenix-green-dark);display:block;margin-bottom:0.2rem;">🔒 100% Confidentiality &amp; Zero Spam</strong>
+            Your corporate metrics and contact details are protected under our mutual NDA policy. We will never sell your details or send unsolicited promotions.
+          </div>
+        </div>
+
+        <!-- Right: Interactive Consultation Inquiry Form -->
+        <div class="booking-form-box">
+          <!-- Live Service Pre-select Callout -->
+          <div class="live-summary-callout">
+            <div>
+              <span style="font-size:0.75rem;color:var(--text-muted);display:block;">Selected Service Scope:</span>
+              <strong id="live-summary-service">Accounting &amp; Bookkeeping</strong>
+            </div>
+            <span class="highlight-badge">Ready to Book</span>
+          </div>
+
+          <form id="consultation-form" novalidate aria-label="Book Consultation Form">
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="form-label" for="user-name">
+                  <span>Full Legal Name <span class="req">*</span></span>
+                </label>
+                <input type="text" id="user-name" class="form-control" placeholder="e.g. Eleanor Vance" required />
+                <span class="form-error">Please enter your full name.</span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="user-email">
+                  <span>Corporate Email <span class="req">*</span></span>
+                </label>
+                <input type="email" id="user-email" class="form-control" placeholder="e.g. eleanor@company.com" required />
+                <span class="form-error">Please provide a valid corporate email.</span>
+              </div>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="form-label" for="user-phone">
+                  <span>Contact Phone Number <span class="req">*</span></span>
+                </label>
+                <input type="tel" id="user-phone" class="form-control" placeholder="+1 (555) 000-0000" required />
+                <span class="form-error">Please provide a valid phone number.</span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="user-company">
+                  <span>Company / Legal Entity <span class="req">*</span></span>
+                </label>
+                <input type="text" id="user-company" class="form-control" placeholder="e.g. Vance Logistics Corp" required />
+                <span class="form-error">Please specify your company name.</span>
+              </div>
+            </div>
+
+            <!-- Service Dropdown -->
+            <div class="form-group">
+              <label class="form-label" for="service-dropdown">
+                <span>Required Service / Solution Package <span class="req">*</span></span>
+              </label>
+              <select id="service-dropdown" class="form-control" required>
+                <option value="Accounting & Bookkeeping">Pillar A: Accounting &amp; Bookkeeping</option>
+                <option value="Payroll Processing">Pillar A: Payroll Processing</option>
+                <option value="Tax Advisory & Filings">Pillar A: Tax Advisory &amp; Statutory Filings</option>
+                <option value="Statutory Compliance">Pillar A: Statutory Compliance &amp; Entity Governance</option>
+                <option value="Custom Web Design & Strategy">Pillar B: Custom Web Design &amp; Digital Engineering</option>
+                <option value="Brand Identity & Consulting">Pillar B: Brand Identity &amp; Positioning</option>
+                <option value="Business Process Consulting">Pillar B: Business Process &amp; ERP Consulting</option>
+                <option value="Day 1 Launchpad (Bundle)">Bundled Package: Day 1 Launchpad (Setup + Compliance + Web)</option>
+                <option value="Scale & Comply Retainer (Bundle)" selected>Bundled Package: Scale &amp; Comply Retainer (Payroll + Tax + Web)</option>
+                <option value="Enterprise Custom Enablement">Bundled Package: Enterprise Custom Enablement</option>
+              </select>
+              <span class="form-error">Please select a service requirement.</span>
+            </div>
+
+            <!-- Current Implementation Stage -->
+            <div class="form-group">
+              <label class="form-label">
+                <span>Project / Implementation Timeline</span>
+              </label>
+              <div class="radio-pill-group">
+                <label class="radio-pill-label">
+                  <input type="radio" name="timeline" value="Immediate (1-2 Weeks)" checked />
+                  <span class="radio-pill-content">Immediate (1-2 Wks)</span>
+                </label>
+                <label class="radio-pill-label">
+                  <input type="radio" name="timeline" value="Next 30 Days" />
+                  <span class="radio-pill-content">Next 30 Days</span>
+                </label>
+                <label class="radio-pill-label">
+                  <input type="radio" name="timeline" value="Planning for Next Quarter" />
+                  <span class="radio-pill-content">Next Quarter</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Notes -->
+            <div class="form-group">
+              <label class="form-label" for="user-notes">
+                <span>Current Challenges or Specific Goals (Optional)</span>
+              </label>
+              <textarea id="user-notes" class="form-control" placeholder="Tell us briefly about your current accounting setup, headcount, or web design objectives..."></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+              <span>Confirm Advisory Call &bull; 100% Free</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+
+            <p style="font-size:0.75rem;color:var(--text-muted);text-align:center;margin-top:1rem;">
+              No credit card required. Strictly privacy-first: No tracking cookies are set on your device.
+            </p>
+          </form>
+
+          <!-- Success Confirmation Voucher (Displayed on Submit) -->
+          <div id="booking-voucher" class="booking-success-voucher">
+            <div class="success-icon-badge">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <h3>Advisory Session Confirmed!</h3>
+            <p>Your strategic consultation with Selenix Group Senior Advisors has been scheduled in our active queue.</p>
+
+            <div class="confirmation-details-card">
+              <div class="voucher-row">
+                <span class="lbl">Reference ID:</span>
+                <span class="val" id="voucher-ref">SLX-849201</span>
+              </div>
+              <div class="voucher-row">
+                <span class="lbl">Client Representative:</span>
+                <span class="val" id="voucher-name">Eleanor Vance</span>
+              </div>
+              <div class="voucher-row">
+                <span class="lbl">Entity / Company:</span>
+                <span class="val" id="voucher-company">Vance Logistics Corp</span>
+              </div>
+              <div class="voucher-row">
+                <span class="lbl">Service Focus:</span>
+                <span class="val" id="voucher-service">Scale &amp; Comply Retainer</span>
+              </div>
+              <div class="voucher-row">
+                <span class="lbl">Confirmed Time Window:</span>
+                <span class="val" id="voucher-schedule">Tomorrow at 10:00 AM EST</span>
+              </div>
+              <div class="voucher-row">
+                <span class="lbl">Assigned Partner:</span>
+                <span class="val">Senior Managing Director (Dual-Engine Desk)</span>
+              </div>
+            </div>
+
+            <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
+              <button type="button" class="btn btn-primary" id="download-ics-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                <span>Download Calendar Invite (.ics)</span>
+              </button>
+              <a href="#hero" class="btn btn-secondary">
+                <span>Return to Top</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       7. INSIGHTS & CASE STUDIES SECTION
+  ============================================================ -->
+  <section class="services-section" id="insights" style="background:var(--bg-page);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <span class="dot"></span>
+          <span>Strategic Briefings</span>
+        </div>
+        <h2 class="section-title">Insights for Modern Executives</h2>
+        <p class="section-desc">
+          Actionable perspectives on financial compliance governance, tax efficiency, and conversion architecture from our senior advisory partners.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Insight 1 -->
+        <article class="card service-card">
+          <div class="service-card-top">
+            <span class="badge badge-emerald" style="margin-bottom:0.75rem;">COMPLIANCE AUDIT</span>
+            <h3 class="service-title" style="font-size:1.2rem;">How a Scaling SaaS Saved $42,000 in Avoided Penalties</h3>
+            <p class="service-desc">
+              A comprehensive retrospective on how multi-state payroll reconciliation and proactive advance tax scheduling eliminated back-office liabilities during Series A fundraising.
+            </p>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding-top:1rem;border-top:1px solid var(--border-light);font-size:0.8rem;color:var(--text-muted);">
+            <span>5 Min Read</span>
+            <span style="color:var(--selenix-green-dark);font-weight:700;">Executive Brief &rarr;</span>
+          </div>
+        </article>
+
+        <!-- Insight 2 -->
+        <article class="card service-card">
+          <div class="service-card-top">
+            <span class="badge badge-emerald" style="margin-bottom:0.75rem;">FINANCIAL CLOSE</span>
+            <h3 class="service-title" style="font-size:1.2rem;">The 5-Day Financial Close: Eliminating Bottlenecks</h3>
+            <p class="service-desc">
+              Why waiting until day 25 of the following month to understand your cashflow is dangerous—and the exact checklist our accountants use to deliver pristine books by day 5.
+            </p>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding-top:1rem;border-top:1px solid var(--border-light);font-size:0.8rem;color:var(--text-muted);">
+            <span>7 Min Read</span>
+            <span style="color:var(--selenix-green-dark);font-weight:700;">Operational Guide &rarr;</span>
+          </div>
+        </article>
+
+        <!-- Insight 3 -->
+        <article class="card service-card">
+          <div class="service-card-top">
+            <span class="badge badge-emerald" style="margin-bottom:0.75rem;">CONVERSION UX</span>
+            <h3 class="service-title" style="font-size:1.2rem;">High-Performance Web Design for Regulated Entities</h3>
+            <p class="service-desc">
+              How corporate firms can balance regulatory disclosures with sub-second page performance, crisp typography, and conversion funnels that double inbound demo requests.
+            </p>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding-top:1rem;border-top:1px solid var(--border-light);font-size:0.8rem;color:var(--text-muted);">
+            <span>6 Min Read</span>
+            <span style="color:var(--selenix-green-dark);font-weight:700;">Design Analysis &rarr;</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       8. FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <!-- 100% Cookieless Web Experience Banner -->
+      <div class="cookieless-assurance-banner">
+        <div class="cookieless-banner-text">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          <p>
+            <strong>Privacy-First Architecture: 100% Cookieless.</strong> Selenix operates with zero tracking cookies, zero surveillance pixels, and zero third-party cross-site trackers. Your browsing and inquiry data remain strictly confidential.
+          </p>
+        </div>
+        <button type="button" class="btn btn-outline-emerald btn-sm" onclick="window.replayLoader()" title="Test Branded Loading Screen">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+          <span>Preview Loading Screen</span>
+        </button>
+      </div>
+
+      <div class="footer-top">
+        <!-- Col 1: Brand Info -->
+        <div>
+          <div class="brand-logo" style="margin-bottom:1rem;">
+            <div class="brand-icon-emblem" style="width:40px;height:40px;">
+              <img src="assets/selenix-icon.jpg" alt="Selenix Emblem" />
+            </div>
+            <img src="assets/selenix-wordmark.png" alt="SELENIX" class="brand-wordmark-img" style="height:26px;" />
+          </div>
+          <p class="footer-brand-desc">
+            A comprehensive business enablement firm integrating corporate financial operations, payroll, and statutory compliance with high-converting web design and strategic digital consulting.
+          </p>
+          <div class="footer-badge-list">
+            <div class="footer-badge-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Audit-Ready Accounting &bull; GAAP/IFRS</span>
+            </div>
+            <div class="footer-badge-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>100% On-Time Statutory Filings</span>
+            </div>
+            <div class="footer-badge-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>High-Performance Conversion UI</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 2: Pillar A Directory -->
+        <div>
+          <h4 class="footer-col-title">Financial &amp; Legal</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#services" class="footer-nav-link" data-select-service="Payroll Processing">Payroll Processing</a></li>
+            <li><a href="#services" class="footer-nav-link" data-select-service="Tax Advisory & Filings">Tax Advisory &amp; Filings</a></li>
+            <li><a href="#services" class="footer-nav-link" data-select-service="Accounting & Bookkeeping">Bookkeeping &amp; Accounting</a></li>
+            <li><a href="#services" class="footer-nav-link" data-select-service="Statutory Compliance">Statutory Compliance</a></li>
+            <li><a href="#services" class="footer-nav-link" data-select-service="Day 1 Launchpad (Bundle)">Entity Incorporation</a></li>
+            <li><a href="#services" class="footer-nav-link" data-select-service="Tax Advisory & Filings">Audit Representation</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Pillar B Directory -->
+        <div>
+          <h4 class="footer-col-title">Digital &amp; Growth</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#services" class="footer-nav-link" data-select-service="Custom Web Design & Strategy">Custom Web Design</a></li>
+            <li><a href="#services" class="footer-nav-link" data-select-service="Brand Identity & Consulting">Brand Identity &amp; Systems</a></li>
+            <li><a href="#services" class="footer-nav-link" data-select-service="Business Process Consulting">ERP &amp; Process Automation</a></li>
+            <li><a href="#services" class="footer-nav-link" data-select-service="Custom Web Design & Strategy">Conversion Architecture</a></li>
+            <li><a href="#services" class="footer-nav-link" data-select-service="Scale & Comply Retainer (Bundle)">Routine Web Maintenance</a></li>
+            <li><a href="#services" class="footer-nav-link" data-select-service="Enterprise Custom Enablement">Custom Client Portals</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Solutions & Institutional -->
+        <div>
+          <h4 class="footer-col-title">Packages &amp; Trust</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#packages" class="footer-nav-link" data-select-service="Day 1 Launchpad (Bundle)">Day 1 Launchpad</a></li>
+            <li><a href="#packages" class="footer-nav-link" data-select-service="Scale & Comply Retainer (Bundle)">Scale &amp; Comply Retainer</a></li>
+            <li><a href="#packages" class="footer-nav-link" data-select-service="Enterprise Custom Enablement">Enterprise Custom</a></li>
+            <li><a href="#process" class="footer-nav-link">Discovery &amp; Audit Process</a></li>
+            <li><a href="#process" class="footer-nav-link">Security Safeguards (AES-256)</a></li>
+            <li><a href="#booking" class="footer-nav-link">Book Free Consultation</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="footer-disclaimer">
+          <strong>Compliance Disclaimer:</strong> Selenix Business Solutions provides integrated corporate financial operations, bookkeeping, payroll coordination, and digital design consulting. Statutory filings and legal documentations are prepared in strict accordance with relevant jurisdictional statutory requirements. We do not engage in unauthorized legal practice.
+        </p>
+        <p style="color:#64748b;">
+          &copy; 2026 Selenix Group. All rights reserved. 100% Cookieless Architecture.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Logic -->
+  <script src="js/app.js"></script>
+</body>
+</html>

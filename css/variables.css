@@ -1,0 +1,75 @@
+/* ============================================================
+   SELENIX DESIGN SYSTEM - VARIABLES & TOKENS
+   Permanent Executive Obsidian Black Theme (Matching Logos)
+   ============================================================ */
+
+:root {
+  /* Brand Accent: Selenix Emerald / Electric Cyber Green */
+  --selenix-green: #2eff3b;
+  --selenix-green-bright: #44ff50;
+  --selenix-green-deep: #16a34a;
+  --selenix-green-dark: #0f763e;
+  --selenix-green-glow: rgba(46, 255, 59, 0.25);
+  --selenix-green-glow-intense: rgba(46, 255, 59, 0.45);
+  --selenix-green-subtle: rgba(46, 255, 59, 0.1);
+  --selenix-green-border: rgba(46, 255, 59, 0.35);
+
+  /* Chrome & Titanium Metallic Tokens */
+  --chrome-highlight: #ffffff;
+  --chrome-mid: #cbd5e1;
+  --chrome-dark: #94a3b8;
+  --chrome-gradient: linear-gradient(135deg, #ffffff 0%, #e2e8f0 40%, #cbd5e1 75%, #f1f5f9 100%);
+  --chrome-border: linear-gradient(135deg, rgba(255,255,255,0.6) 0%, rgba(203,213,225,0.3) 50%, rgba(46,255,59,0.3) 100%);
+
+  /* Permanent Theme: Executive Obsidian Black / Deep Space Slate */
+  --bg-page: #06090e;
+  --bg-page-secondary: #0a0e16;
+  --bg-card: #0f1522;
+  --bg-card-hover: #141c2c;
+  --bg-card-alt: #0a0e16;
+  --bg-surface-elevated: #131b2a;
+  --bg-nav: rgba(6, 9, 14, 0.92);
+  --bg-dark-accent: #04070b;
+  --bg-dark-card: #0b111a;
+
+  /* High-Contrast Text */
+  --text-heading: #f8fafc;
+  --text-body: #cbd5e1;
+  --text-muted: #8492a6;
+  --text-light: #ffffff;
+  --text-light-muted: #94a3b8;
+
+  /* Borders & Dividers */
+  --border-light: rgba(255, 255, 255, 0.09);
+  --border-medium: rgba(255, 255, 255, 0.16);
+  --border-accent: rgba(46, 255, 59, 0.4);
+  --border-dark: rgba(255, 255, 255, 0.1);
+
+  /* Deep Shadows & Neon Emerald Elevations */
+  --shadow-xs: 0 2px 6px rgba(0, 0, 0, 0.4);
+  --shadow-sm: 0 6px 18px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 12px 30px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 24px 50px rgba(0, 0, 0, 0.7);
+  --shadow-glow: 0 0 30px var(--selenix-green-glow);
+  --shadow-card-hover: 0 20px 45px rgba(0, 0, 0, 0.7), 0 0 35px var(--selenix-green-glow);
+
+  /* Typography */
+  --font-primary: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Layout & Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Container width */
+  --container-max: 1240px;
+}
